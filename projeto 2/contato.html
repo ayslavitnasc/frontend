@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clinica Saints</title>
+    <style>
+      #corpo {
+        background-color: rgb(116, 120, 120);
+        margin-top: 5px;
+        padding-bottom: 30px;
+        margin-left: 100px;
+        margin-right: 103px;
+        border-radius: 10px 10px;
+      }
+      body {
+        margin: auto;
+        padding-bottom: 10px;
+      }
+      #menu {
+        background-color: rgb(116, 120, 120);
+        width: 200px;
+        height: 400px;
+        display: inline-block;
+        border-radius: 10px 0px 0px 0px;
+      }
+      #menu > h2 {
+        text-align: center;
+        padding-top: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 35px;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+      }
+      .um-one {
+        margin-left: 3px;
+        text-align: center;
+      }
+      .one {
+        list-style-type: none;
+        padding: 5px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        margin-right: 30px;
+        margin-left: -15px;
+        margin-bottom: 10px;
+        border: 1px solid rgb(255, 255, 255);
+        box-shadow: 1px 2px 3px black;
+        border-radius: 5px;
+        padding: 8px;
+      }
+      .one:hover {
+        background-color: aquamarine;
+        color: black;
+      }
+      .men:link {
+        text-decoration: none;
+        color: rgb(254, 254, 255);
+      }
+      #header {
+        background-color: rgb(116, 120, 120);
+        height: 100px;
+        width: 940px;
+        margin-left: 200px;
+        margin-top: -400px;
+        border-radius: 0px 10px 0px 0px;
+      }
+      #header > h1 {
+        text-align: center;
+        margin-left: 100px;
+        margin-top: -70px;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      img {
+        border-radius: 40px 0px 40px;
+      }
+
+      #content {
+        background-color: rgb(255, 255, 255);
+        margin-left: 200px;
+        padding-left: 40px;
+        padding-top: 30px;
+        padding-bottom: 5px;
+        width: 880px;
+        border-radius: 10px;
+        box-shadow: 9px 4px 5px rgb(0, 0, 0);
+      }
+      #content > h2 {
+        font-family: 'Courier New', Courier, monospace;
+      }
+      #content > h3 {
+        font-family: 'Courier New', Courier, monospace;
+      }
+      #content > p {
+        font-size: 17px;
+      }
+      #footer {
+        width: 880px;
+        background-color: rgb(116, 120, 120);
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        width: 1115px;
+        margin-top: 10px;
+      }
+      #footer > h3 {
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(255, 255, 255);
+      }
+      #footer > p {
+        font-size: 17px;
+        color: aliceblue;
+      }
+      #footer > ul {
+        color: rgb(255, 255, 255);
+      }
+      form {
+        margin-left: 250px;
+        padding-bottom: 10px;
+      }
+      #name {
+        padding-bottom: 10px;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 17px;
+      }
+
+      #name > input {
+        padding: 5px;
+        border-radius: 5px;
+        box-shadow: 2px 4px 4px black;
+        margin-left: 30px;
+        border: none;
+      }
+      #e_mail {
+        padding-bottom: 10px;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 17px;
+      }
+      #e_mail > input {
+        padding: 5px;
+        border-radius: 5px;
+        box-shadow: 2px 4px 4px black;
+        margin-left: 10px;
+        border: none;
+      }
+      #assunto_ {
+        padding-bottom: 10px;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 17px;
+      }
+      #assunto_ > input {
+        padding: 5px;
+        border-radius: 5px;
+        box-shadow: 2px 4px 4px black;
+        border: none;
+      }
+      #msg {
+        padding-bottom: 10px;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 17px;
+      }
+      #msg > textarea {
+        padding: 5px;
+        border-radius: 5px;
+        box-shadow: 2px 4px 4px black;
+        margin-left: -4px;
+        border: none;
+      }
+      #bttn {
+        padding-top: 10px;
+      }
+      button {
+        margin-left: 40px;
+        padding-top: 10px;
+      }
+      button:hover {
+        background-color: rgb(251, 145, 145);
+        color: black;
+        box-shadow: 2px 4px 4px black;
+      }
+      #enviar {
+        padding: 3px 20px 3px 20px;
+        border-radius: 7px;
+        border: none;
+      }
+      #limpar {
+        padding: 3px 20px 3px 20px;
+        border-radius: 7px;
+        border: none;
+      }
+      iframe {
+        margin-left: 35%;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="corpo">
+      <div id="menu">
+        <!--Pagina de navegaçao-->
+        <h2>Menu</h2>
+        <ul class="um-one">
+          <a href="index.html" class="men"
+            ><li class="one">Página Principal</li></a
+          >
+          <a href="sobrec.html" class="men"
+            ><li class="one">Sobre a clínica</li></a
+          >
+          <a href="horarioat.html" class="men"
+            ><li class="one">Horário de Atendimento</li></a
+          >
+          <a href="#" class="men"><li class="one">Contato</li></a>
+        </ul>
+      </div>
+      <div id="header">
+        <!--Header "Cabeçalho"-->
+        <img
+          src="logo clinica medica.jpg"
+          alt="Clinica medica saints"
+          title="Clinica medica saints"
+          width="100px"
+        />
+        <h1>Clinica Saint´s</h1>
+      </div>
+      <div id="content">
+        <!--Content "Corpo"-->
+        <h2 style="text-align: center; padding-bottom: 10px">
+          formulário de contato
+        </h2>
+        <form method="post">
+          <div id="name">
+            <label id="nome">Nome</label>
+            <input type="text" name="nome" id="nome" />
+          </div>
+          <div id="e_mail">
+            <label id="email">E-mail</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div id="assunto_">
+            <label id="assunto">Assunto</label>
+            <input type="text" name="assunto" id="assunto" />
+          </div>
+          <div id="msg">
+            <label id="mensagem">mensagem</label>
+            <textarea id="mensagem" cols="20" rows="3"></textarea>
+          </div>
+          <div id="bttn">
+            <button type="submit" id="enviar">Enviar</button>
+            <button type="reset" id="limpar">Limpar</button>
+          </div>
+        </form>
+      </div>
+      <div id="footer">
+        <!--footer "rodapé"-->
+        <p style="text-align: center; width: 600px; margin-left: 250px">
+          A Clínica Saints está localizada em Rua da Paz, 567, Santo Amaro, São
+          Paulo. Para mais informações, entre em contato pelo telefone +55 11
+          99999-9999 ou pelo e-mail clinicasaintsdr@gmail.com.br
+        </p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.261694304212!2d-46.7022265256745!3d-23.630797364144914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50e89c6d6375%3A0x87b78352f95be9d2!2sR.%20da%20Paz%20-%20Santo%20Amaro%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004849-539!5e0!3m2!1spt-BR!2sbr!4v1696720542698!5m2!1spt-BR!2sbr"
+          width="300"
+          height="200"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>
