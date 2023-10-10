@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wikipédia Moderna</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      header {
+        display: flex;
+      }
+      #logo {
+        text-align: center;
+        width: 150px;
+        margin-left: 5px;
+        padding-top: 10px;
+        font-size: 13px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      #logo > h1 {
+        color: rgba(0, 0, 0);
+        text-shadow: -8px 4px 4px rgb(70, 69, 69);
+      }
+      #imagem > img {
+        margin: 5px 0 0 20px;
+        box-shadow: -8px 4px 4px black;
+        border-radius: 10px;
+      }
+      .hr_one {
+        height: 25px;
+        background-color: rgb(169, 169, 169, 0.5);
+        border: 1px solid rgb(118, 116, 116);
+      }
+      main {
+        margin-top: -8px;
+        display: flex;
+      }
+      #titulo {
+        border-top: 1px solid rgb(118, 116, 116);
+        border-right: 1px solid rgb(118, 116, 116);
+        border-bottom: 1px solid rgb(118, 116, 116);
+        width: 280px;
+        text-align: center;
+      }
+      #conteudo {
+        border: 1px solid rgb(118, 116, 116);
+        width: 933px;
+        padding: 5px 20px 0px 20px;
+      }
+      #artigo {
+        border: 1px solid rgb(118, 116, 116);
+        text-align: center;
+        width: 300px;
+      }
+      #titulo > ul {
+        list-style-type: none;
+        padding-right: 20px;
+      }
+      #titulo > ul > li {
+        padding-bottom: 10px;
+      }
+      #titulo > ul > li > a:link,
+      a:visited {
+        text-decoration: none;
+        color: none;
+      }
+      #titulo > ul > li > a:hover {
+        color: black;
+      }
+      .tabela_one {
+        width: 270px;
+        margin-left: -25px;
+        margin-top: 5px;
+      }
+      th {
+        text-align: left;
+        padding-bottom: 5px;
+      }
+      td {
+        text-align: right;
+        padding-bottom: 5px;
+      }
+
+      .tabela_two {
+        width: 270px;
+        margin-left: -25px;
+        margin-top: 5px;
+      }
+      video {
+        padding-bottom: 4px;
+      }
+      figcaption {
+        padding-bottom: 20px;
+      }
+      #busca {
+        width: 500px;
+        margin-left: 300px;
+      }
+      form {
+        padding-top: 30px;
+        padding-left: 40px;
+      }
+      input {
+        width: 300px;
+        height: 30px;
+      }
+      button {
+        width: 100px;
+        height: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="imagem">
+        <img
+          src="logo.jpg"
+          alt="Logo da Wikipédia Imagem letra W"
+          width="80px"
+        />
+      </div>
+      <div id="logo"><h1>Wikipédia</h1></div>
+      <div id="busca">
+        <form action="" method="get">
+          <input
+            type="search"
+            placeholder="Pesquisar na Wikipédia"
+            aria-label="Pesquisar na Wikipédia"
+            aria-expanded="false"
+          />
+          <button type="submit" name="pesquisar">
+            <strong>Pesquisar</strong>
+          </button>
+        </form>
+      </div>
+    </header>
+    <hr class="hr_one" />
+    <main>
+      <div id="titulo">
+        <h3
+          style="
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+              sans-serif;
+          "
+        >
+          Atores
+        </h3>
+        <p style="font-size: 17px">Personagens Principais</p>
+        <ul>
+          <li>
+            <a
+              href="https://pt.wikipedia.org/wiki/Jonathan_Roumie"
+              target="_blank"
+              >Jonathan Roumie</a
+            >
+          </li>
+          <li>
+            <a href="https://www.imdb.com/name/nm6051304/" target="_blank"
+              >Shahar Isaac</a
+            >
+          </li>
+          <li>
+            <a href="https://www.elizabethtabish.com/" target="_blank"
+              >Elizabeth Tabish</a
+            >
+          </li>
+          <li>
+            <a href="https://pt.wikipedia.org/wiki/Erick_Avari" target="_blank"
+              >Erick Avari</a
+            >
+          </li>
+          <li>
+            <a href="https://www.imdb.com/name/nm10343553/" target="_blank"
+              >Shayan Sobhian</a
+            >
+          </li>
+          <li>
+            <a href="https://www.jordanwalkerross.com/" target="_blank"
+              >Jordan Walker Ross</a
+            >
+          </li>
+          <li>
+            <a href="https://www.imdb.com/name/nm4407460/" target="_blank"
+              >Paras Patel</a
+            >
+          </li>
+        </ul>
+
+        <p style="font-size: 17px">Outros personagens</p>
+        <ul>
+          <li>
+            <a href="https://www.imdb.com/name/nm6162840/" target="_blank"
+              >Joey Vahedi</a
+            >
+          </li>
+          <li>
+            <a href="https://www.imdb.com/name/nm5154700/" target="_blank"
+              >Noah James</a
+            >
+          </li>
+          <li>
+            <a href="https://www.imdb.com/name/nm5079783/" target="_blank"
+              >George Harrison Xanthis</a
+            >
+          </li>
+          <li>
+            <a href="https://www.imdb.com/name/nm8903025/" target="_blank"
+              >Luke Dimyan</a
+            >
+          </li>
+          <li>
+            <a href="https://www.imdb.com/name/nm2349733/" target="_blank"
+              >Alaa Safi</a
+            >
+          </li>
+          <li>
+            <a href="https://www.imdb.com/name/nm5608098/" target="_blank"
+              >Vanessa Benavente</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div id="conteudo">
+        <h3
+          style="
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+              sans-serif;
+          "
+        >
+          The Chosen
+        </h3>
+        <p>
+          A série The Chosen é uma série de televisão americana de drama bíblico
+          criada por Dallas Jenkins. A série é baseada no livro
+          <u>"The Chosen: The Gospels as Told by Jesus' Disciples"</u> de
+          Jenkins. A série estreou em 10 de abril de 2019, no canal BYUtv, e foi
+          adquirida pela Netflix em 2020. A série conta a história da vida de
+          Jesus Cristo, contada do ponto de vista de seus discípulos. A série é
+          baseada nos quatro Evangelhos, mas também apresenta histórias e
+          personagens que não estão nos Evangelhos canônicos. <br />
+          A série foi elogiada por sua fidelidade aos Evangelhos, sua
+          representação de Jesus Cristo e seus personagens, e sua capacidade de
+          entreter e educar o público.
+        </p>
+        <p>
+          A série está disponível gratuitamente através do aplicativo e do site
+          The Chosen. Também está disponível em redes de televisão e plataformas
+          de streaming como Netflix, Amazon Prime Video, Peacock e VidAngel, sua
+          casa original. No Brasil, foi adquirida pelo SBT e tem previsão de
+          estreia para o mês de dezembro de 2023.
+        </p>
+        <p>
+          Por ser uma produção independente, sem conexão com os grandes estúdios
+          de Hollywood, The Chosen conseguiu autorização para gravar a quarta
+          temporada mesmo em meio à greve dos atores que paralisou a indústria
+          de entretenimento americana em 2023.
+        </p>
+        <hr />
+        <h3>Visão geral</h3>
+        <p>
+          A primeira temporada se passa na Galileia do século I, onde Jesus
+          começa a formar um grupo para o seu ministério, convidando várias
+          pessoas com diferentes formações. A segunda temporada começa em
+          Samaria e se move para regiões próximas, onde Jesus continua a
+          construir seu grupo de discípulos e, à medida que a palavra de seu
+          ministério público começa a crescer, ele encontra oportunidades e
+          dificuldades. A terceira temporada se concentrará nos discípulos
+          continuando a lutar enquanto seguem Jesus. O grupo retorna a Cafarnaum
+          após o Sermão da Montanha, com a crescente popularidade de Jesus
+          incomodando diferentes construções sociais e políticas, incluindo os
+          romanos e os fariseus.
+        </p>
+        <hr />
+        <h3>Desenvolvimento</h3>
+        <p>
+          Para criar The Chosen, Jenkins fez parceria com Derral Eves, um
+          estrategista de marketing de vídeo, com Eves como produtor executivo.
+          O VidAngel, junto com Eves e Jenkins, recorreu ao financiamento
+          coletivo (crowdfunding) para arrecadar dinheiro para produzir a
+          primeira temporada, utilizando uma disposição da Jumpstart Our
+          Business Startups Act de 2016, que permite que as empresas usem
+          financiamento coletivo de capital para oferecer uma parte da
+          propriedade e lucros da empresa para investidores online, em vez das
+          "vantagens" arbitrárias oferecidas pelo financiamento coletivo
+          regular. No final da primeira rodada de arrecadação de fundos em
+          janeiro de 2019, o projeto arrecadou mais de 10,2 milhões de dólares
+          de mais de 16 000 investidores, superando o Mystery Science Theater
+          3000 como o principal projeto de série de televisão com financiamento
+          coletivo da história.
+        </p>
+        <h3>Detalhes específicos</h3>
+        <ul>
+          <li>
+            Os personagens principais da série são:
+            <ul>
+              <li>Jesus Cristo</li>
+              <li>Pedro</li>
+              <li>André</li>
+              <li>Tiago</li>
+              <li>João</li>
+              <li>Mateus</li>
+              <li>Tomé</li>
+              <li>Filipe</li>
+              <li>Bartolomeu</li>
+              <li>Tiago, filho de Alfeu</li>
+              <li>Simão, o Zelote</li>
+              <li>Judas Iscariotes</li>
+            </ul>
+          </li>
+          <li>
+            A série foi filmada em:
+            <ul>
+              <li>Utah, Estados Unidos</li>
+              <li>Israel</li>
+            </ul>
+          </li>
+          <li>
+            A série foi produzida por:
+            <ul>
+              <li>The Chosen Productions</li>
+              <li>VidAngel</li>
+            </ul>
+          </li>
+        </ul>
+        <p>
+          A série é uma abordagem inovadora da história da vida de Jesus Cristo.
+          A série conta a história do ponto de vista dos discípulos, o que
+          permite que o público veja Jesus de uma nova perspectiva. A série
+          também é fiel aos Evangelhos, mas também apresenta histórias e
+          personagens que não estão nos Evangelhos canônicos.
+        </p>
+        <p>
+          The Chosen é uma série que pode ser apreciada por pessoas de todas as
+          crenças. A série é uma fonte de inspiração e esperança, e pode ajudar
+          as pessoas a entender melhor a história de Jesus Cristo.
+        </p>
+        <hr />
+        <h3>personagens principais de The Chosen</h3>
+        <ul>
+          <li>Jesus Cristo – interpretado por Jonathan Roumie.</li>
+          <li>
+            Simão Pedro – interpretado por Shahar Isaac. Nasceu em Jerusalém e
+            fala hebraico fluentemente e com toda a certeza isso facilitou na
+            preparação de seu papel de Simão Pedro
+          </li>
+          <li>
+            Maria Madalena – interpretada por Elizabeth Tabish. Elizabeth Tabish
+            também é roteirista e diretora
+          </li>
+          <li>Nicodemos – interpretado por Erick Avari.</li>
+          <li>
+            Tiago, filho de Zebedeu (Tiagão, o maior) – Shayan Sobhian foi o
+            primeiro ator a interpretar Tiago (temporada 1, episódios 1-4). O
+            personagem é um ex-pescador de Cafarnaum e um dos doze apóstolos de
+            Jesus.
+          </li>
+          <li>
+            Tiago, filho de Alfeu (Tiaguinho, o menor) – interpretado por Jordan
+            Walker Ross.
+          </li>
+          <li>
+            Mateus – interpretado por Paras Patel, um ator americano de
+            ascendência indiana, e este é o seu primeiro papel em uma série de
+            televisão.
+          </li>
+        </ul>
+        <h3>Outros personagens importantes em The Chosen</h3>
+        <ul>
+          <li>
+            Tomé – interpretado por Joey Vahedi. O apóstolo mais desconfiado,
+            aquele que precisa comprovar, ver para crer.
+          </li>
+          <li>
+            André – interpretado por Noah James. Noah James também é músico e
+            tem uma banda chamada “Hawk & Dove”.
+          </li>
+          <li>
+            João – interpretado por George Harrison Xanthis. George Harrison
+            Xanthis é um ator novato que faz sua estreia em The Chosen.
+          </li>
+          <li>Judas Iscariotes – interpretado por Luke Dimyan.</li>
+          <li>
+            Simão, o Zelote – interpretado por Alaa Safi, um ator sírio que
+            anteriormente já havia trabalhado em produções internacionais como
+            “Tyrant” e “The Spy”.
+          </li>
+          <li>Maria, mãe de Jesus – interpretada por Vanessa Benavente.</li>
+        </ul>
+        <hr />
+        <h3>Trailers</h3>
+        <figure>
+          <video width="300px" controls>
+            <source
+              src="The Chosen_ 1ª Temporada _ Trailer Oficial Dublado.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <figcaption>
+            The Chosen: 1ª Temporada | Trailer Oficial Dublado
+          </figcaption>
+          <video width="300px" controls>
+            <source
+              src="The Chosen_ 2ª Temporada _ Trailer Oficial Dublado.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <figcaption>
+            The Chosen: 2ª Temporada | Trailer Oficial Dublado
+          </figcaption>
+          <video width="300px" controls>
+            <source
+              src="The Chosen_ Trailer Oficial da 3ª Temporada.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <figcaption>
+            The Chosen: Trailer Oficial da 3ª Temporada(Legendado)
+          </figcaption>
+        </figure>
+      </div>
+
+      <div id="artigo">
+        <figure>
+          <h3
+            style="
+              font-size: 20px;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                sans-serif;
+            "
+          >
+            The Chosen
+          </h3>
+          <img
+            src="the chosen.webp"
+            alt="Foto da serie the chosen"
+            title="The Chosen"
+            width="200px"
+          />
+          <figcaption style="font-size: 14px">
+            <i>The Chosen / Os Escolhidos</i>
+          </figcaption>
+
+          <table class="tabela_one">
+            <tr>
+              <th colspan="2" style="text-align: center; padding-bottom: 5px">
+                Informação geral
+              </th>
+            </tr>
+            <tr>
+              <th>Gênero</th>
+              <td>Drama histórico</td>
+            </tr>
+            <tr>
+              <th>Duração</th>
+              <td>21–100 minutos</td>
+            </tr>
+            <tr>
+              <th>Criador(es)</th>
+              <td>Dallas Jenkins</td>
+            </tr>
+            <tr>
+              <th>Baseado em</th>
+              <td>Vida de Jesus</td>
+            </tr>
+            <tr>
+              <th>País de origem</th>
+              <td>Estados Unidos</td>
+            </tr>
+            <tr>
+              <th>Idioma original</th>
+              <td>inglês</td>
+            </tr>
+          </table>
+          <table class="tabela_two">
+            <tr>
+              <th
+                colspan="2"
+                style="
+                  text-align: center;
+                  padding-top: 5px;
+                  padding-bottom: 5px;
+                "
+              >
+                Produção
+              </th>
+            </tr>
+            <tr>
+              <th>Diretor(es)</th>
+              <td>Dallas Jenkins</td>
+            </tr>
+            <tr>
+              <th>Produtor(es)</th>
+              <td>
+                Chad Gundersen <br />
+                Justin Tolley <br />
+                Chris Juen
+              </td>
+            </tr>
+            <tr>
+              <th>Produtor(es)</th>
+              <td>Derral Eves</td>
+            </tr>
+            <tr>
+              <th>executivo(s)</th>
+              <td>
+                Matthew Faraci <br />
+                Dallas Jenkins <br />
+                Ryan Swanson <br />
+                Tyler Thompson <br />
+                Brad Pelo
+              </td>
+            </tr>
+            <tr>
+              <th>Editor(es)</th>
+              <td>
+                John Quinn <br />
+                Adam Lutge
+              </td>
+            </tr>
+            <tr>
+              <th>Cinematografia</th>
+              <td>
+                Akis Konstantakopoulos <br />
+                Petros Atoniadis
+              </td>
+            </tr>
+            <tr>
+              <th>Distribuição</th>
+              <td>Angel Studios, Inc.</td>
+            </tr>
+            <tr>
+              <th>Roteirista(s)</th>
+              <td>
+                Tyler Thompson <br />
+                Dallas Jenkins <br />
+                Ryan Swanson
+              </td>
+            </tr>
+            <tr>
+              <th>Elenco</th>
+              <td>
+                Shahar Isaac <br />
+                Jonathan Roumie <br />
+                Elizabeth Tabish <br />
+                Paras Patel <br />
+                Noah James<br />
+                George H. Xanthis
+              </td>
+            </tr>
+            <tr>
+              <th>Composto por</th>
+              <td>
+                Matthew S. Nelson <br />
+                Dan Haseltine<br />
+                Ruby Amanfu
+              </td>
+            </tr>
+            <tr>
+              <th>Empresa(s)</th>
+              <td>Loaves & Fishes</td>
+            </tr>
+            <tr>
+              <th>produtora(s)</th>
+              <td>
+                Productions <br />
+                Angel Studios <br />
+                Out of Order Studios
+              </td>
+            </tr>
+          </table>
+        </figure>
+      </div>
+    </main>
+  </body>
+</html>
