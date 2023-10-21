@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const name = String(
+        window.prompt('------JOGO DAS PERGUNTAS------ \n Qual o seu nome ?')
+      );
+      alert('Bem vindo(a) ' + name + '\n pressione enter.');
+      const number = Number(
+        window.prompt(
+          '------JOGO DAS PERGUNTAS------ \n Começar jogo? \n 1- Sim \n 2- Não',
+          'Somente numeros'
+        )
+      );
+
+      switch (number) {
+        case 1:
+          // Nivel Ferro
+          alert('Você é -FERRO- Level 1 \n Pressione Enter');
+          const number1 = Number(
+            window.prompt(
+              '1- Em que ano o Brasil foi descoberto ?',
+              'Somente numero'
+            )
+          );
+          if (number1 == 1500) {
+            alert('Acertou! Você obteve 333XP...\n Total = 333XP');
+          } else {
+            alert('Errou! recomeçe Novamente.');
+            break;
+          }
+
+          const number2 = Number(
+            window.prompt(
+              '2- O JavaScript surgiu em que ano ?',
+              'Somente numero'
+            )
+          );
+          if (number2 == 1995) {
+            alert('Acertou! Você obteve 333XP...\n Total = 666XP');
+          } else {
+            alert('Errou! recomeçe Novamente.');
+            break;
+          }
+
+          const number3 = Number(
+            window.prompt(
+              '3- Em que dia se comemora o halloween ?',
+              'Somente numero'
+            )
+          );
+          if (number3 == 31) {
+            alert('Acertou! Você obteve 333XP...\n Total = 999XP');
+          } else {
+            alert(
+              'Há que pena que voce não consegue sair do titulo de ferro!\n Deve haver no mundo outro guerreiro melhor. \n recomeçe Novamente.'
+            );
+          }
+
+          // Nivel Broze
+          alert('Você obteve 2XP por passar de Level! \n Total = 1.001XP');
+          alert('Você é -BRONZE- Level 2 \n Pressione Enter');
+
+          const number4 = Number(
+            window.prompt('4- Quanto é 1000 / 4 ?', 'Somente numero')
+          );
+          if (number4 == 250) {
+            alert('Acertou! Você obteve 333XP...\n Total = 1.334XP');
+          } else {
+            alert(
+              'Que pena que você só chegou até aqui.\n Acho que estou duvidando da sua capacidade Guerreiro(a)! \n recomeçe Novamente.'
+            );
+          }
+
+          const number5 = Number(
+            window.prompt('5- Quanto é 154 * 63 ?', 'Somente numero')
+          );
+          if (number5 == 9702) {
+            alert('Acertou! Você obteve 333XP...\n Total = 1.667XP');
+          } else {
+            alert(
+              'Que pena que você só chegou até aqui.\n ja foi do tempo que existiam Guerreiro(s)(a) melhores!\n recomeçe Novamente.'
+            );
+          }
+
+          const number6 = Number(
+            window.prompt('6- Quanto é 458 - 79 ?', 'Somente numero')
+          );
+          if (number6 == 379) {
+            alert('Acertou! Você obteve 333XP...\n Total = 2.000XP');
+          } else {
+            alert(
+              'Quem sabe um dia você vira o poderoso guerreiro(a) \n recomeçe Novamente.'
+            );
+          }
+
+          // Nivel Prata
+          alert('Você é -PRATA- Level 3 \n Pressione Enter');
+
+          const number7 = Number(
+            window.prompt(
+              '7- De quem é a famosa frase “Penso, logo existo”? \n 1-Platão \n 2- Galileu Galilei \n 3- Descartes \n 4-Sócrates',
+              'Somente numero'
+            )
+          );
+          if (number7 == 3) {
+            alert('Acertou! Você obteve 1.000XP...\n Total = 3.000XP');
+          } else {
+            alert(
+              'Uhuul! Prata, que merd... ops.. legal! rs! \n recomeçe Novamente.'
+            );
+          }
+
+          const number8 = Number(
+            window.prompt(
+              '8- Atualmente, quantos elementos químicos a tabela periódica possui?',
+              'Somente numero'
+            )
+          );
+          if (number8 == 118) {
+            alert('Acertou! Você obteve 1.000XP...\n Total = 4.000XP');
+          } else {
+            alert(
+              'Já perdi a fé com você guerreiro(a) não vou mentir! \n recomeçe Novamente.'
+            );
+          }
+
+          const number9 = Number(
+            window.prompt(
+              '9- Qual a nacionalidade de Che Guevara? \n 1- Cubana \n 2- Peruana \n 3- Panamenha \n 4- Argentina',
+              'Somente numero'
+            )
+          );
+          if (number9 == 4) {
+            alert('Acertou! Você obteve 1.000XP...\n Total = 5.000XP');
+          } else {
+            alert('Quem sabe um dia... Quem sabe...\n recomeçe Novamente.');
+          }
+
+          // Nivel Ouro
+          alert('Você é -OURO- Level 4 \n Pressione Enter');
+
+          const number10 = Number(
+            window.prompt(
+              '10- Em que período da pré-história o fogo foi descoberto? \n 1- Neolítico \n 2- Paleolítico \n 3- Idade dos Metais \n 4- Idade Média',
+              'Somente numero'
+            )
+          );
+          if (number10 == 2) {
+            alert('Acertou! Você obteve 650XP...\n Total = 5.650XP');
+          } else {
+            alert('Mais sorte da proxima... \n recomeçe Novamente.');
+          }
+
+          const number11 = Number(
+            window.prompt(
+              '11- Qual a montanha mais alta do Brasil? \n 1- Pico da Neblina \n 2- Pico Paraná\n 3- Monte Roraima\n 4-Pico Maior de Friburgo',
+              'Somente numero'
+            )
+          );
+          if (number11 == 1) {
+            alert('Acertou! Você obteve 650XP...\n Total = 6.300XP');
+          } else {
+            alert('Ouro... Melhor do que nada! \n recomeçe Novamente.');
+          }
+
+          const number12 = Number(
+            window.prompt(
+              '12- Em qual local da Ásia o português é língua oficial? \n 1- Índia\n 2- Filipinas\n 3- Portugal\n 4- Macau',
+              'Somente numero'
+            )
+          );
+          if (number12 == 4) {
+            alert('Acertou! Você obteve 650XP...\n Total = 6.950XP');
+          } else {
+            alert('Quando eu pensei que ia.. nao foi! \n recomeçe Novamente.');
+          }
+
+          // Nivel Platina
+          alert('Você é -PLATINA- Level 5 \n Pressione Enter');
+          alert(
+            'Parabens! Voce obteve 51XP por passar de Level...\n Total = 7.001XP'
+          );
+
+          const number13 = Number(
+            window.prompt(
+              '13- Quem é o autor de “O Príncipe”? \n 1- Maquiavel\n 2-  Antoine de Saint-Exupéry\n 3- Montesquieu\n 4- Thomas Hobbes',
+              'Somente numero'
+            )
+          );
+          if (number13 == 1) {
+            alert('Acertou! Você obteve 333XP...\n Total = 7.334XP');
+          } else {
+            alert(
+              'Você foi bem guerreiro(a)... pratique mais!\n recomeçe Novamente.'
+            );
+          }
+
+          const number14 = Number(
+            window.prompt(
+              '14- “It is six twenty" ou "twenty past six”. Que horas são em inglês? \n 1- 12:06\n 2- 6:20\n 3- 2:20\n 4- 6:02',
+              'Somente numero'
+            )
+          );
+          if (number14 == 2) {
+            alert('Acertou! Você obteve 333XP...\n Total = 7.667XP');
+          } else {
+            alert('Pode ir pra casa Sr(a). Platina. \n recomeçe Novamente.');
+          }
+
+          const number15 = Number(
+            window.prompt(
+              '15- Qual destes países é transcontinental? \n 1- Rússia\n 2- Filipinas\n 3- Marrocos\n 4- Tanzânia',
+              'Somente numero'
+            )
+          );
+          if (number15 == 1) {
+            alert('Acertou! Você obteve 333XP...\n Total = 8.000XP');
+          } else {
+            alert('Vou deixar você tentar novamente... \n recomeçe Novamente.');
+          }
+
+          // Nivel Ascendente
+          alert('Você é -ASCENDENTE- Level 6 \n Pressione Enter');
+
+          const number16 = Number(
+            window.prompt(
+              '16- Qual o nome do presidente do Brasil que ficou conhecido como Jango? \n 1-jânio Quadros \n 2-Getúlio Vargas \n 3-João Figueiredo \n 4-João Goulart '
+            )
+          );
+          if (number16 == 4) {
+            alert('Acertou! Você obteve 333XP...\n Total = 8.333XP');
+          } else {
+            alert(
+              'Continue tentando, você tem talento! \n recomeçe Novamente.'
+            );
+          }
+          const number17 = Number(
+            window.prompt(
+              '17-  Qual o livro mais vendido no mundo a seguir à Bíblia? \n 1- O Senhor dos Anéis\n 2- Dom Quixote\n 3- O Pequeno Príncipe\n 4- Ela, a Feiticeira'
+            )
+          );
+          if (number17 == 2) {
+            alert('Acertou! Você obteve 333XP...\n Total = 8.666XP');
+          } else {
+            alert('Continue a nadar...Continue a nada! \n recomeçe Novamente.');
+          }
+          const number18 = Number(
+            window.prompt(
+              '18- Quantas casas decimais tem o número pi? \n 1- Duas\n 2- Centenas\n 3- Infinitas\n 4- Milhares'
+            )
+          );
+          if (number18 == 4) {
+            alert('Acertou! Você obteve 333XP...\n Total = 8.999XP');
+          } else {
+            alert('Quase que vira Imortal. \n recomeçe Novamente.');
+          }
+
+          // Nivel Imortal
+          alert('Você é -IMORTAL- Level 7 \n Pressione Enter');
+
+          const number19 = Number(
+            window.prompt(
+              '19- Qual o número mínimo de jogadores em cada time numa partida de futebol?\n 1- 7\n 2- 9\n 3- 10\n 4- 8'
+            )
+          );
+          if (number19 == 1) {
+            alert('Acertou! Você obteve 333XP...\n Total = 9.332XP');
+          } else {
+            alert(
+              'Por pouco chegou aos meus pés rsrs...\n recomeçe Novamente.'
+            );
+          }
+
+          const number20 = Number(
+            window.prompt(
+              '20- Qual personagem folclórico costuma ser agradado pelos caçadores com a oferta de fumo?\n 1- Negrinho do Pastoreio\n 2- Saci\n 3- Caipora\n 4- Lobisomem'
+            )
+          );
+          if (number20 == 3) {
+            alert('Acertou! Você obteve 333XP...\n Total = 9.665XP');
+          } else {
+            alert(
+              'Chegou até aqui e não soube essa???? \n recomeçe Novamente.'
+            );
+          }
+
+          const number21 = Number(
+            window.prompt(
+              '21- Qual foi o recurso utilizado inicialmente pelo homem para explicar a origem das coisas?\n 1- A Biologia\n 2- A Mitologia\n 3- A Filosofia\n 4-A Astronomia'
+            )
+          );
+          if (number21 == 2) {
+            alert('Acertou! Você obteve 333XP...\n Total = 9.998XP');
+          } else {
+            alert(
+              'Por pouco estava pensando que iria tomar meu kugar! \n recomeçe Novamente.'
+            );
+          }
+
+          // Nivel Radiante
+          alert('Você é -RADIANTE- Level 8 \n Pressione Enter');
+
+          const number22 = Number(
+            window.prompt(
+              '22- Qual o maior animal terrestre? \n 1- Girafa\n 2- Elefante africano\n 3- Baleia Azul\n 4- Dinossauro'
+            )
+          );
+          if (number22 == 2) {
+            alert('Acertou! Você obteve 333XP...\n Total = 10.331XP');
+          } else {
+            alert(
+              'Vá para casa, você chegou muito longe \n recomeçe Novamente.'
+            );
+          }
+
+          const number23 = Number(
+            window.prompt(
+              '23- Que líder mundial ficou conhecida como “Dama de Ferro”?\n 1- Dilma Rousseff\n 2- Hillary Clinton\n 3- Margaret Thatcher\n 4- Christine Lagarde'
+            )
+          );
+          if (number23 == 3) {
+            alert('Acertou! Você obteve 333XP...\n Total = 10.664XP');
+          } else {
+            alert(
+              'Como se sente estando em segundo lugar?\n recomeçe Novamente.'
+            );
+          }
+
+          const number24 = Number(
+            window.prompt(
+              '24- Qual a religião monoteísta que conta com o maior número de adeptos no mundo?\n 1- Cristianismo\n 2- Judaísmo\n 3- Islamismo\n 4- Hinduísmo'
+            )
+          );
+          if (number23 == 1) {
+            alert('Acertou! Você obteve 336XP...\n Total = 11.000XP');
+            alert(
+              'Parabens!! Você conseguiu vencer a Rainha Guerreira.\n Nao deixe ninguem que nao seja digno de tomar o seu trono!'
+            );
+          } else {
+            alert(
+              'Ainda sou a Rainha Guerreira, Pensou que seria facil? \n recomeçe Novamente.'
+            );
+          }
+
+        case 2:
+          alert('Então deixe que outro(a) jogue!');
+
+        default:
+          alert('Quanta Inteligencia.');
+      }
+    </script>
+  </body>
+</html>
