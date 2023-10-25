@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let ver = getHanck(100, 50);
+      function getHanck(vitorias, derrotas) {
+        const resultado = vitorias - derrotas;
+        let vit = ' ';
+        if (resultado < 10) {
+          vit =
+            'O Herói tem de saldo de vida ' +
+            resultado +
+            ' está no nível de Ferro';
+          console.log(vit);
+        } else if (resultado >= 11 && resultado <= 20) {
+          vit =
+            'O Herói tem de saldo de vida ' +
+            resultado +
+            ' está no nível de Bronze';
+          console.log(vit);
+        } else if (resultado >= 21 && resultado <= 50) {
+          vit =
+            'O Herói tem de saldo de vida ' +
+            resultado +
+            ' está no nível de Prata';
+          console.log(vit);
+        } else if (resultado >= 51 && resultado <= 80) {
+          vit =
+            'O Herói tem de saldo de vida ' +
+            resultado +
+            ' está no nível de Ouro';
+          console.log(vit);
+        } else if (resultado >= 81 && resultado >= 90) {
+          vit =
+            'O Herói tem de saldo de vida ' +
+            resultado +
+            ' está no nível de Diamante';
+          console.log(vit);
+        } else if (resultado >= 91 && resultado >= 100) {
+          vit =
+            'O Herói tem de saldo de vida ' +
+            resultado +
+            ' está no nível de lendário';
+          console.log(vit);
+        } else if (resultado >= 101) {
+          vit =
+            'O Herói tem de saldo de vida ' +
+            resultado +
+            ' está no nível de Imortal';
+          console.log(vit);
+        } else {
+          vit = 'Indefinido';
+          console.log(vit);
+        }
+
+        return resultado;
+      }
+    </script>
+  </body>
+</html>
