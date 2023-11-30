@@ -1,0 +1,372 @@
+@import 'compass/css3';
+body {
+  margin: 0px;
+  width: auto;
+  height: auto;
+}
+@media (max-width: 2000px) {
+  header {
+    background-color: black;
+  }
+  #logo {
+    margin: 5px 0px 0px 250px;
+  }
+  .img1 {
+    width: 266.89px;
+    height: 149.98px;
+  }
+  #redes {
+    margin: 60px 0px 0px 450px;
+    height: 20px;
+    padding: 10px;
+  }
+}
+@media (max-width: 600px) {
+  header {
+    background-color: rgb(0, 0, 0);
+    width: 600px;
+    height: 130px;
+  }
+  #nav {
+    width: 166px;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  #nav a {
+    width: 10px;
+    font-size: 13px;
+    margin-left: -55px;
+  }
+
+  #logo {
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 30px;
+  }
+
+  .img1 {
+    width: 70px;
+    height: 70px;
+    margin-left: -90px;
+  }
+  #redes {
+    width: 166px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+}
+
+header {
+  display: flex;
+  text-align: center;
+  border-bottom: 4px solid transparent;
+  border-image: linear-gradient(
+    0.25turn,
+    rgb(0, 0, 0),
+    rgb(64, 255, 0),
+    rgba(0, 0, 0, 0)
+  );
+  border-image-slice: 1;
+  width: 100%;
+}
+
+#nav {
+  margin: 60px 0px 0px 80px;
+  padding: 10px;
+  height: 50px;
+  font-size: 18px;
+  font-family: monospace;
+}
+
+.sobre {
+  padding: 0px 30px 0px 30px;
+  color: greenyellow;
+}
+.contato {
+  padding: 0px 30px 0px 30px;
+  color: greenyellow;
+}
+.sobre:link,
+.contato:link {
+  text-decoration: none;
+}
+
+.sobre:hover,
+.contato:hover {
+  text-shadow: 3px 4px 10px rgb(255, 255, 255);
+}
+
+.instagram {
+  padding: 0px 5px 0px 5px;
+}
+
+.linkedin {
+  margin-left: 5px;
+  padding: 0px 5px 0px 5px;
+}
+.instagram:hover,
+.linkedin:hover {
+  filter: drop-shadow(0px 0px 10px greenyellow);
+}
+main {
+  width: auto;
+}
+#bio {
+  background-color: rgb(0, 0, 0);
+  animation: color 9s infinite linear;
+  margin-top: -13px;
+
+  height: 850px;
+  color: greenyellow;
+  border-bottom: 4px solid transparent;
+  border-image: linear-gradient(
+    0.25turn,
+    rgb(0, 0, 0),
+    rgb(64, 255, 0),
+    rgba(0, 0, 0, 0)
+  );
+  border-image-slice: 1;
+  width: 100%;
+}
+#bio1 {
+  text-align: justify;
+  width: 500px;
+  margin-left: 200px;
+  margin-top: 70px;
+}
+.one {
+  display: block;
+  height: 100px;
+  font-size: 20px;
+  padding-top: 80px;
+  text-align: center;
+  font-family: monospace;
+  text-shadow: 2px 2px 10px rgb(255, 255, 255);
+  transition: transform 1s;
+  transform: translateX(20) scale(0.8);
+}
+.one:hover,
+.one:focus {
+  color: rgb(0, 255, 0);
+  transform: translateX(10px) scale(2.2);
+}
+h2 {
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 25px;
+}
+p,
+li {
+  font-family: monospace;
+  font-size: 19px;
+  display: flex;
+}
+
+#foto {
+  margin-top: -400px;
+  margin-left: 800px;
+  width: 400px;
+}
+.ft {
+  width: 250px;
+  border-radius: 10px;
+  animation: imagem 1.5s infinite ease-in;
+  box-shadow: 0px 0px 50px greenyellow;
+  position: relative;
+}
+
+@keyframes color {
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: rgb(2, 26, 2);
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+@keyframes imagem {
+  50% {
+    transform: translateY(10%);
+  }
+}
+
+#pg {
+  height: 300px;
+  background-image: url(conceito-de-colagem-de-html-e-css-com-pessoa.jpg);
+  background-size: cover;
+  overflow: auto;
+  background-attachment: fixed;
+  border-bottom: 4px solid transparent;
+  border-image: linear-gradient(
+    0.25turn,
+    rgb(0, 0, 0),
+    rgb(64, 255, 0),
+    rgba(0, 0, 0, 0)
+  );
+  border-image-slice: 1;
+  width: auto;
+}
+
+.I {
+  width: 170px;
+  height: 170px;
+  border-radius: 100px;
+  margin: 60px 0px 0px 40px;
+  display: inline-block;
+}
+.I:hover {
+  filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+}
+.II {
+  width: 175px;
+  height: 175px;
+  border-radius: 100px;
+  margin: -175px 0px 0px 500px;
+  display: inline-block;
+}
+.II:hover {
+  filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+}
+.III {
+  width: 175px;
+  height: 175px;
+  border-radius: 200px;
+  margin: -175px 0px 0px 500px;
+  display: inline-block;
+}
+.III:hover {
+  filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+}
+.um {
+  width: 170px;
+  height: 170px;
+  background-size: cover;
+  margin: 80px 0px 0px 160px;
+}
+
+#contato {
+  background-color: rgb(0, 0, 0);
+  animation: color 9s infinite linear;
+  height: 550px;
+  color: greenyellow;
+  border-image: linear-gradient(
+    0.25turn,
+    rgb(0, 0, 0),
+    rgb(64, 255, 0),
+    rgba(0, 0, 0, 0)
+  );
+  border-image-slice: 1;
+  width: 100%;
+  padding-top: 80px;
+  border-bottom: 4px solid transparent;
+}
+
+fieldset {
+  width: 380px;
+  margin: 50px 0px 0px 568px;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px greenyellow;
+}
+form {
+  width: 350px;
+  height: 350px;
+  display: block;
+  position: relative;
+}
+#nome {
+  display: block;
+  width: 250px;
+  height: 30px;
+  border-radius: 6px;
+  margin-left: 60px;
+  margin-top: 30px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+#email {
+  display: block;
+  width: 250px;
+  height: 30px;
+  border-radius: 6px;
+  margin-left: 60px;
+  margin-top: 30px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+textarea {
+  display: block;
+  width: 250px;
+  height: 60px;
+  border-radius: 6px;
+  margin-left: 60px;
+  margin-top: 40px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+button {
+  width: 130px;
+  height: 36px;
+  margin: 35px 0px 0px 116px;
+  border-radius: 10px 3px;
+}
+button:hover {
+  box-shadow: inset 0px 0px 10px white;
+  color: azure;
+  background-color: rgb(17, 28, 0);
+  transition: all 0.6s ease-in;
+}
+
+.two {
+  text-align: center;
+}
+
+footer {
+  padding-top: 10px;
+  width: auto;
+  height: 200px;
+  background-color: black;
+  color: greenyellow;
+  font-family: monospace;
+  font-size: 17px;
+}
+#informacoes {
+  display: inline-block;
+  border-left: 4px solid greenyellow;
+  padding-left: 10px;
+  margin: 40px 0px 0px 100px;
+}
+
+#video {
+  width: 120px;
+  height: 100px;
+  position: relative;
+  margin: -110px 0px 0px 700px;
+}
+
+.vd {
+  width: 220px;
+  height: 120px;
+}
