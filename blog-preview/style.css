@@ -1,0 +1,116 @@
+body {
+  background-color: #f5d04e;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Figtree', sans-serif;
+}
+section {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  box-shadow: 8px 6px 0px black;
+}
+.foto-curso {
+  border-radius: 10px;
+}
+h4 {
+  background-color: #f7ce4d;
+  width: 70px;
+  padding: 4px;
+  text-align: center;
+  border-radius: 5px;
+}
+.main .descricao:nth-of-type(1) {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.main .descricao:nth-of-type(2) {
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(0, 0%, 50%);
+  font-size: 16px;
+}
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+.avatar {
+  width: 50px;
+  border-radius: 50%;
+}
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: #f5d04e;
+    max-width: 480px;
+    width: 350px;
+    height: 800px;
+    font-family: 'Figtree', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  section {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 8px 6px 0px black;
+    max-width: 390px;
+    width: 300px;
+    height: 600px;
+  }
+  .foto-curso {
+    border-radius: 10px;
+    width: 310px;
+    margin-top: -30px;
+  }
+
+  h4 {
+    background-color: #f7ce4d;
+    max-width: 70px;
+    width: 70px;
+    padding: 4px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .main .descricao:nth-of-type(1) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  .main .descricao:nth-of-type(2) {
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(0, 0%, 50%);
+    font-size: 16px;
+  }
+  .perfil {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+  }
+  .avatar {
+    width: 50px;
+    border-radius: 50%;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+  }
+}
